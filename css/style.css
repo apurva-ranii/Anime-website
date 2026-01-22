@@ -1,0 +1,49 @@
+body{
+    background-color: #8c7d8c;
+    color:rgb(26, 24, 24);
+}
+.images{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+    gap:20px;
+    justify-items:start;
+
+    
+}
+
+.logo img{
+    width:300px;
+    height:350px;
+    border-radius:5%
+
+} 
+@media(max-width:500px){
+    .logo img{
+        width:150px;
+        height:auto;;
+    }
+}
+#title{
+    text-shadow: 15px 0 10px rgb(75, 25, 59);
+    text-transform: uppercase;
+    color:rgb(41, 36, 36);
+}
+h4{
+    margin-left:20px;
+}
+.logo{
+    background-color:#2a063e;
+    border:solid 2px rgb(47, 44, 44);
+    border-radius:5%
+    
+}
+.logo p{
+    color: rgb(227, 220, 220);
+    text-align:center;
+    font-weight: bold;
+    transition:0.6s;
+}
+.logo:hover{
+    transform:scale(1.1);
+    
+}

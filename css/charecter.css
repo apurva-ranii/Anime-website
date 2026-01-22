@@ -1,0 +1,20 @@
+body{
+    margin-left:15px;
+    background-color: #a689aa;
+}
+.heading{
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight:bold;
+    
+}
+h1{
+    text-align:center;
+    text-shadow: 15px 0 10px rgb(75, 25, 59);
+}
+
+#page_img{
+    border:black 2px solid;
+    width:200px;
+    height:200px;
+}
